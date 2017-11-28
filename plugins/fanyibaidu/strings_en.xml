@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My translation</string>
+    <string name="umeng_common_action_info_exist">It's being downloaded.</string>
+    <string name="umeng_common_info_interrupt">There is an error in the download. Please check the network and continue.</string>
+    <string name="umeng_common_action_pause">suspend</string>
+    <string name="umeng_common_action_continue">Continue</string>
+    <string name="umeng_common_action_cancel">cancel</string>
+    <string name="umeng_common_download_notification_prefix">Downloading:</string>
+    <string name="umeng_common_pause_notification_prefix">Pause:</string>
+    <string name="umeng_common_start_download_notification">Downloading applications</string>
+    <string name="umeng_common_start_patch_notification">Updating installation package</string>
+    <string name="umeng_common_network_break_alert">Please connect to the network and try again!</string>
+    <string name="umeng_common_download_failed">Download failed</string>
+    <string name="umeng_common_download_finish">Download to complete, please click Install</string>
+    <string name="umeng_common_patch_finish">Update completion, please click Install</string>
+    <string name="umeng_common_silent_download_finish">The new version is ready, please click Install</string>
+</resources>
