@@ -58,7 +58,7 @@ def translate_xml(filePath,fromLang,toLang):
             jsonDic = json.loads(jsonValue)
             print jsonDic["trans_result"][0]["dst"]
             name.text = jsonDic["trans_result"][0]["dst"];
-        tree.write(filePath.replace('.xml',"_"+toLang+".xml"))
+        tree.write(filePath.replace('.xml',"_"+toLang+".xml"),"utf-8")
 
     except Exception, e:
         print "Error:cannot parse file: %s"%e
