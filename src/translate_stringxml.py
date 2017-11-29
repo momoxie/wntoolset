@@ -11,6 +11,7 @@ try:
   import xml.etree.cElementTree as ET
 except ImportError:
   import xml.etree.ElementTree as ET
+import config_path
 
 reload(sys)
 sys.setdefaultencoding('utf8')
@@ -70,4 +71,4 @@ if __name__ == "__main__":
     elif len(sys.argv) > 1:
         translate_xml(sys.argv[1],"zh","en")
     else:
-        translate_xml("../plugins/fanyibaidu/strings.xml","zh","en")
+        translate_xml("%s/plugins/fanyibaidu/strings.xml"%config_path.g_project_dir,"zh","en")
