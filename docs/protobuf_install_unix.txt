@@ -1,0 +1,26 @@
+1. Download Protobuf
+地址为： https://github.com/google/protobuf
+$ git clone https://github.com/google/protobuf.git
+
+2. Install brew
+$ ruby -e "$(curl -fsSL  https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+3. Insatll autoconf、automake、libtool
+$ brew install autoconf
+$ brew install automake
+$ brew install libtool
+
+4. 
+$ ./autogen.sh
+
+5. 
+$ ./configure
+$ make
+$ make check
+$ sudo make install
+$ sudo ldconfig # refresh shared library cache.
+
+mac上执行完上面的步骤：
+在usr/local/bin 里面会生成protoc
+
+
